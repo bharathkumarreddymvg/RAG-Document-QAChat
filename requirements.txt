@@ -8,7 +8,7 @@ langchain-groq==0.2.1
 langchain-huggingface==0.1.0
 
 # --- Vector DBs & Embeddings ---
-faiss-cpu==1.8.0
+faiss-cpu==1.13.0
 sentence-transformers==2.6.1     # 🔥 stable & avoids uninstall conflicts
 openai==1.47.0
 tiktoken==0.7.0
@@ -30,3 +30,4 @@ numpy==1.26.4
 pandas==2.2.3
 scikit-learn==1.5.2
 tokenizers==0.19.1
+
