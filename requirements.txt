@@ -7,18 +7,18 @@ langchain-openai==0.2.2
 langchain-groq==0.2.1
 langchain-huggingface==0.1.0
 
-# --- Vector DBs & Embeddings ---
+# --- Vector DB & Embeddings ---
 faiss-cpu==1.13.0
-sentence-transformers==2.6.1     # 🔥 stable & avoids uninstall conflicts
+sentence-transformers==3.1.1    # Python 3.13 compatible
 openai==1.47.0
 tiktoken==0.7.0
 PyPDF2==3.0.1
-pypdf>=4.0.0
+pypdf==6.4.0
 
-# --- Transformers + Torch (CPU) ---
-transformers==4.40.0             # 🔥 stable for Streamlit deploy
-torch==2.2.0
-accelerate==0.28.0               # compatible with transformers 4.40
+# --- Transformers + Torch (Python 3.13 Compatible) ---
+torch==2.9.1
+transformers==4.46.3
+accelerate==1.2.1
 
 # --- Streamlit UI ---
 streamlit==1.39.0
@@ -29,5 +29,4 @@ requests==2.32.3
 numpy==1.26.4
 pandas==2.2.3
 scikit-learn==1.5.2
-tokenizers==0.19.1
-
+tokenizers==0.21.0
