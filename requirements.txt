@@ -9,13 +9,13 @@ langchain-huggingface==0.1.0
 
 # --- Vector DB & Embeddings ---
 faiss-cpu==1.13.0
-sentence-transformers==3.1.1    # Python 3.13 compatible
+sentence-transformers==3.1.1
 openai==1.47.0
-tiktoken==0.7.0
+tiktoken==0.8.4      # Updated for pre-built wheel
 PyPDF2==3.0.1
 pypdf==6.4.0
 
-# --- Transformers + Torch (Python 3.13 Compatible) ---
+# --- Transformers + Torch ---
 torch==2.9.1
 transformers==4.46.3
 accelerate==1.2.1
@@ -26,7 +26,7 @@ streamlit==1.39.0
 # --- Utilities ---
 python-dotenv==1.0.1
 requests==2.32.3
-numpy==1.26.4
+numpy==1.27.6         # Updated for pre-built wheel
 pandas==2.2.3
 scikit-learn==1.5.2
 tokenizers==0.21.0
