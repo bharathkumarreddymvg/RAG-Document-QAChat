@@ -1,19 +1,24 @@
-# --- LangChain Ecosystem (latest aligned 0.3.x stack) ---
+# --- LangChain Ecosystem (0.3.x) ---
 langchain==0.3.3
 langchain-core==0.3.15
 langchain-community==0.3.1
 langchain-text-splitters==0.3.0
 langchain-openai==0.2.2
 langchain-groq==0.2.1
-langchain-huggingface
+langchain-huggingface==0.1.0
 
 # --- Vector DBs & Embeddings ---
 faiss-cpu==1.8.0
-sentence-transformers==3.0.1
+sentence-transformers==2.6.1     # 🔥 stable & avoids uninstall conflicts
 openai==1.47.0
 tiktoken==0.7.0
 PyPDF2==3.0.1
 pypdf>=4.0.0
+
+# --- Transformers + Torch (CPU) ---
+transformers==4.40.0             # 🔥 stable for Streamlit deploy
+torch==2.2.0
+accelerate==0.28.0               # compatible with transformers 4.40
 
 # --- Streamlit UI ---
 streamlit==1.39.0
@@ -23,7 +28,5 @@ python-dotenv==1.0.1
 requests==2.32.3
 numpy==1.26.4
 pandas==2.2.3
-
-# --- Transformers Support ---
-tf-keras==2.17.0
-transformers==4.44.2
+scikit-learn==1.5.2
+tokenizers==0.19.1
